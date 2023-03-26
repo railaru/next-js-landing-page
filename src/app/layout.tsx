@@ -40,7 +40,7 @@ export default function RootLayout({
       <body className={`${helveticaNue.variable} font-sans`}>
         <Navbar />
 
-        <div className="min-h-screen">{children}</div>
+        <div className="min-h-screen mt-12">{children}</div>
 
         <Footer />
       </body>
