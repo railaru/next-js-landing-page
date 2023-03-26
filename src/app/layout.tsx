@@ -1,5 +1,7 @@
 import localFont from "@next/font/local";
 import "./globals.css";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export const metadata = {
   title: "Next.js landing page",
@@ -34,8 +36,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${helveticaNue.variable} font-sans`}>{children}</body>
+    <html lang="en" data-theme="lofi">
+      <body className={`${helveticaNue.variable} font-sans`}>
+        <Navbar />
+
+        <div className="min-h-screen">{children}</div>
+
+        <Footer />
+      </body>
     </html>
   );
 }
