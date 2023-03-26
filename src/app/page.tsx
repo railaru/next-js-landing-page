@@ -11,7 +11,7 @@ export default function Home() {
 
           <div className="flex justify-center items-center">
             <img
-              src="assets/images/mock-photo-2.avif"
+              src="assets/images/mock-photo-2.jpg"
               alt="Mock photo 2"
               className="rounded-3xl"
             />

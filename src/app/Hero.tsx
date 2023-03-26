@@ -28,7 +28,7 @@ export default function Hero() {
 
       <div className="flex items-center justify-center">
         <img
-          src="assets/images/mock-photo.avif"
+          src="assets/images/mock-photo-1.jpg"
           alt="Mock photo"
           className="rounded-3xl"
         />
