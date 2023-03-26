@@ -6,7 +6,7 @@ export default function Home() {
       <div className="container space-y-24">
         <Hero />
 
-        {/* <div className="space-y-16">
+        <div className="space-y-16">
           <h2 className="font-[700] text-4xl text-center">Features</h2>
 
           <div className="flex justify-center items-center">
@@ -16,7 +16,7 @@ export default function Home() {
               className="rounded-3xl"
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </main>
   );

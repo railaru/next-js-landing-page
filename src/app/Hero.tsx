@@ -27,11 +27,11 @@ export default function Hero() {
       </div>
 
       <div className="flex items-center justify-center">
-        {/* <img
+        <img
           src="assets/images/mock-photo-1.jpg"
           alt="Mock photo"
           className="rounded-3xl"
-        /> */}
+        />
       </div>
     </div>
   );
