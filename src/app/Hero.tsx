@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="grid lg:grid-cols-2 gap-12">
-      <div className="flex justify-center items-center">
+    <div className="grid gap-12 lg:grid-cols-2">
+      <div className="flex items-center justify-center">
         <div className="space-y-6 max-w-[600px]">
           <h1 className="font-[700] text-4xl">
             Innovative productivity app for teams
