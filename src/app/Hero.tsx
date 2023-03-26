@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="grid lg:grid-cols-2 gap-16">
+    <div className="grid lg:grid-cols-2 gap-12">
       <div className="flex justify-center items-center">
         <div className="space-y-6 max-w-[600px]">
           <h1 className="font-[700] text-4xl">
@@ -28,8 +28,8 @@ export default function Hero() {
 
       <div className="flex items-center justify-center">
         <img
-          src="assets/images/Plinplan - Task Management App 1.webp"
-          alt="Plinplan - Task Management App 1"
+          src="assets/images/mock-photo.avif"
+          alt="Mock photo"
           className="rounded-3xl"
         />
       </div>

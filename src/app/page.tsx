@@ -11,8 +11,8 @@ export default function Home() {
 
           <div className="flex justify-center items-center">
             <img
-              src="assets/images/Plinplan - Task Management App 2.webp"
-              alt="Plinplan - Task Management App 2"
+              src="assets/images/mock-photo-2.avif"
+              alt="Mock photo 2"
               className="rounded-3xl"
             />
           </div>
